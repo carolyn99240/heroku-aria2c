@@ -7,6 +7,6 @@ if [[ -n $RCLONE_CONFIG && -n $RCLONE_DESTINATION ]]; then
 	chmod +x on-complete.sh
 fi
 
-echo "rpc-secret=$ARIA2C_SECRET" >> aria2c.conf
+echo "rpc-secret=1XXZ4soQ3Zb1XhXv6Uvl5OP8nnG_K7kmVatoMSy63vgua4sC" >> aria2c.conf
 aria2c --conf-path=aria2c.conf&
 yarn start
